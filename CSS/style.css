@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: rgb(204, 0, 0);
+    color: white;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.fa-train {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#prezzo-biglietto {
+    padding-left: 20px;
+    font-weight: 700;
+}

@@ -25,4 +25,4 @@ if (etaPasseggero < 18) {
 }
 
 // OUTPUT
-document.getElementById("prezzo-biglietto").textContent = `Prezzo del biglietto: ${bigliettoFinale.toFixed(2)}`
+document.getElementById("prezzo-biglietto").textContent = `Prezzo del biglietto: €${bigliettoFinale.toFixed(2)}`
