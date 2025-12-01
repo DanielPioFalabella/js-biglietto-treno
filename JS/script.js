@@ -21,7 +21,8 @@ if (etaPasseggero < 18) {
     
 } else {
     bigliettoFinale = bigliettoBase;
-    console.log("prezzo del biglietto", bigliettoFinale);
+    console.log("prezzo del biglietto", bigliettoFinale.toFixed(2));
 }
 
 // OUTPUT
+document.getElementById("prezzo-biglietto").textContent = `Prezzo del biglietto: ${bigliettoFinale.toFixed(2)}`
