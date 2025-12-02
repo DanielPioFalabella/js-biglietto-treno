@@ -13,7 +13,7 @@ console.log(bigliettoBase);
 
 // sconto del biglietto in base all'età del passeggero
 if (etaPasseggero < 18) {
-    bigliettoFinale = bigliettoBase * 0.8;
+    let bigliettoFinale = bigliettoBase * 0.8;
     console.log("prezzo del biglietto", bigliettoFinale)
 } else if (etaPasseggero >= 65) {
     bigliettoFinale = bigliettoBase * 0.6;
